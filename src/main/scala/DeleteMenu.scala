@@ -9,7 +9,7 @@ class DeleteMenu {
     println("Press Enter Book ID number and press enter")
     val bookID: Int = scala.io.StdIn.readInt()
     val gson: Gson = new Gson()
-    var index = gson.toJson(bookID - 1)
+    var index = gson.toJson(bookID)
     val result = Http("http://localhost:8000/deleteBook").postData(index)
       .header("Content-Type", "application/json")
       .header("Charset", "UTF-8")
