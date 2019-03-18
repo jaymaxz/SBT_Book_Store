@@ -1,17 +1,6 @@
-import java.util
-import java.util.ArrayList
 class MainMenu {
   def show() = {
     try {
-      val bookList: ArrayList[Book] = new util.ArrayList[Book]()
-      val book1: Book = new Book()
-      book1.name = "The Hobbit"
-      book1.bookID = 1;
-      bookList.add(book1)
-      val book2: Book = new Book()
-      book2.name = "Lord of the Rings"
-      book2.bookID = 2;
-      bookList.add(book2)
       var exit: Boolean = false
       while (!exit) {
         try{
@@ -29,11 +18,11 @@ class MainMenu {
             case 1 => val listMenu: ListMenu = new ListMenu()
               listMenu.show()
             case 2 => val detailsMenu: BookDetailsMenu = new BookDetailsMenu()
-              detailsMenu.show(bookList)
+              detailsMenu.show()
             case 3 => val addBookMenu: AddBookMenu = new AddBookMenu()
-              addBookMenu.show(bookList)
-            case 4 => val purchaseMenu: PurchaseMenu = new PurchaseMenu()
-              purchaseMenu.show(bookList)
+              addBookMenu.show()
+            case 4 => val deleteMenu: DeleteMenu = new DeleteMenu()
+              deleteMenu.show()
             case 5 => exit = true
           }
         }
@@ -45,7 +34,6 @@ class MainMenu {
             println()
           }
         }
-
       }
     }
     catch {

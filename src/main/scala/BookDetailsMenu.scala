@@ -1,10 +1,8 @@
-import java.util.ArrayList
-
 import com.google.gson.Gson
 import scalaj.http.{Http, HttpOptions}
 
 class BookDetailsMenu {
-  def show(bookList: ArrayList[Book]) = {
+  def show() = {
     println()
     println("Book Details")
     println()

@@ -1,1 +1,27 @@
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/DeleteMenu.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/ListMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/PurchaseMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/BookDetailsMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/MainMenu.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/AddBookMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/Main$.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/PurchaseMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/MainMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/Book.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/BookDetailsMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/Main.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/ListMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/Main$delayedInit$body.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(ListMenu, PurchaseMenu, BookDetailsMenu, MainMenu)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/ListMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/PurchaseMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/Book.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/Main.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/BookDetailsMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/MainMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/AddBookMenu.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 8 sources: invalidated sources (8) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 8 Scala sources to /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 629e7e85 for Scala compiler version 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/jagath/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes:/home/jagath/.ivy2/cache/org.scalaj/scalaj-http_2.12/jars/scalaj-http_2.12-2.4.1.jar:/home/jagath/.ivy2/cache/com.googlecode.json-simple/json-simple/bundles/json-simple-1.1.1.jar:/home/jagath/.ivy2/cache/junit/junit/jars/junit-4.10.jar:/home/jagath/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar:/home/jagath/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.2.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.723252925 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
