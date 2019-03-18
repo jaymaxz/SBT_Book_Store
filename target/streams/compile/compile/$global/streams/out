@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/PurchaseMenu.scala:3:12: object google is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.google.gson.Gson[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/PurchaseMenu.scala:14:15: not found: type Gson[0m
+[0m[[0m[31merror[0m] [0m[0m    val gson: Gson = new Gson()[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/PurchaseMenu.scala:14:26: not found: type Gson[0m
+[0m[[0m[31merror[0m] [0m[0m    val gson: Gson = new Gson()[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
