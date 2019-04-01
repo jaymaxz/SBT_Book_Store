@@ -4,6 +4,21 @@
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: com.rabbitmq#amqp-client;5.0.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: com.rabbitmq#amqp-client;5.0.0
+[debug] 	found com.rabbitmq#amqp-client;5.0.0 in sbt-chain
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: junit#junit;4.10 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: junit#junit;4.10
@@ -76,6 +91,17 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.25 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.25
+[debug] 	found org.slf4j#slf4j-api;1.7.25 in sbt-chain
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: org.scalaj#scalaj-http_2.12;2.4.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.12;2.4.1
@@ -94,6 +120,18 @@
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [runtime]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->compile]
@@ -150,6 +188,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
@@ -162,6 +208,18 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->compile]
@@ -218,6 +276,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->compile]
@@ -234,6 +300,18 @@
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [test]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [runtime]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->compile]
@@ -290,6 +368,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
@@ -302,6 +388,18 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->compile]
@@ -358,6 +456,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->compile]
@@ -370,6 +476,18 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [test->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [test->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [test->compile]
@@ -426,6 +544,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [test->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [test->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [test->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [test->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [test->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [test->compile]
@@ -445,6 +571,18 @@
 [debug] resolving dependencies for configuration 'compile-internal'
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [compile-internal]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->compile]
@@ -501,6 +639,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
@@ -515,6 +661,18 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [optional]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [provided]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile-internal->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile-internal->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile-internal->compile]
@@ -571,6 +729,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile-internal->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile-internal->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile-internal->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile-internal->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile-internal->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile-internal->compile]
@@ -587,6 +753,18 @@
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [runtime-internal]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [runtime]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->compile]
@@ -643,6 +821,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
@@ -655,6 +841,18 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->compile]
@@ -711,6 +909,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->compile]
@@ -724,6 +930,18 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->master]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [optional]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime-internal->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime-internal->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime-internal->compile]
@@ -780,6 +998,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime-internal->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime-internal->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime-internal->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime-internal->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime-internal->compile]
@@ -797,6 +1023,18 @@
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [test]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [runtime]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [compile->compile]
@@ -853,6 +1091,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
@@ -865,6 +1111,18 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [compile->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [runtime->compile]
@@ -921,6 +1179,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->compile]
@@ -933,6 +1199,18 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [runtime->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [test->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [test->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [test->compile]
@@ -989,6 +1267,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [test->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [test->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [test->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [test->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [test->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [test->compile]
@@ -1003,6 +1289,18 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [test->master]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [optional]
 [debug] == resolving dependencies for default#sbt_book_store$sources;0.1 [provided]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->default]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.rabbitmq#amqp-client;5.0.0 [test-internal->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [test-internal->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->junit#junit;4.10 [test-internal->compile]
@@ -1059,6 +1357,14 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [test-internal->compile]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [test-internal->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->com.googlecode.json-simple#json-simple;1.1.1 [test-internal->master]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->master(compile)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->runtime]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile(*)]
+[debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->master]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [test-internal->default]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [test-internal->runtime]
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->org.scalaj#scalaj-http_2.12;2.4.1 [test-internal->compile]
@@ -1137,113 +1443,31 @@
 [debug] == resolving dependencies default#sbt_book_store$sources;0.1->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar(src)
-[debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.2.2!gson.jar(src)
 [debug] 	[NOT REQUIRED] com.googlecode.json-simple#json-simple;1.1.1!json-simple.jar(src)
+[debug] 		tried /home/jagath/.ivy2/local/com.rabbitmq/amqp-client/5.0.0/srcs/amqp-client-sources.jar
+[debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.2.2!gson.jar(src)
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src)
-[debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.12;2.4.1!scalaj-http_2.12.jar(src)
+[debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
-[debug] no default ivy user dir defined: set to /home/jagath/.ivy2
-[debug] no default ivy user dir defined: set to /home/jagath/.ivy2
-[debug] no default ivy user dir defined: set to /home/jagath/.ivy2
-[debug] no default ivy user dir defined: set to /home/jagath/.ivy2
-[debug] no default ivy user dir defined: set to /home/jagath/.ivy2
-[debug] no default ivy user dir defined: set to /home/jagath/.ivy2
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/jagath/.ivy2/cache
-[debug] no default cache defined: set to /home/jagath/.ivy2/cache
-[debug] no default cache defined: set to /home/jagath/.ivy2/cache
-[debug] no default cache defined: set to /home/jagath/.ivy2/cache
-[debug] no default cache defined: set to /home/jagath/.ivy2/cache
-[debug] no default cache defined: set to /home/jagath/.ivy2/cache
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/jagath/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (32ms)
-[debug] 	default cache: /home/jagath/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (33ms)
-[debug] 	default cache: /home/jagath/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (31ms)
-[debug] 	default cache: /home/jagath/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (33ms)
-[debug] settings loaded (32ms)
-[debug] 	default cache: /home/jagath/.ivy2/cache
-[debug] settings loaded (33ms)
-[debug] 	default cache: /home/jagath/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	default resolver: default
-[debug] 	default cache: /home/jagath/.ivy2/cache
-[debug] 	-- 5 resolvers:
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	shared [file]
-[debug] 	-- 5 resolvers:
-[debug] 	default [chain] [local, main]
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	public [ibiblio]
-[debug] 	default [chain] [local, main]
-[debug] 	main [chain] [shared, public]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.0.0/amqp-client-5.0.0-sources.jar
+[debug] 		tried /home/jagath/.ivy2/local/org.slf4j/slf4j-api/1.7.25/srcs/slf4j-api-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.12;2.4.1!scalaj-http_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] :: resolution report :: resolve 280ms :: artifacts dl 42ms
+[info] downloading https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.0.0/amqp-client-5.0.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.0.0/amqp-client-5.0.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.0.0/amqp-client-5.0.0-sources.jar.sha1
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.0.0/amqp-client-5.0.0-sources.jar
+[info] 	[SUCCESSFUL ] com.rabbitmq#amqp-client;5.0.0!amqp-client.jar(src) (1388ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src) (3904ms)
+[debug] :: resolution report :: resolve 38ms :: artifacts dl 3916ms
 [debug] 	report for default#sbt_book_store$sources;0.1 compile produced in /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-compile.xml
 [debug] 	report for default#sbt_book_store$sources;0.1 runtime produced in /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-runtime.xml
 [debug] 	report for default#sbt_book_store$sources;0.1 test produced in /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-test.xml
@@ -1255,4 +1479,4 @@
 [debug] 	report for default#sbt_book_store$sources;0.1 plugin produced in /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-plugin.xml
 [debug] 	report for default#sbt_book_store$sources;0.1 pom produced in /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-pom.xml
 [debug] 	report for default#sbt_book_store$sources;0.1 scala-tool produced in /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-scala-tool.xml
-[debug] 	resolve done (280ms resolve - 42ms download)
+[debug] 	resolve done (38ms resolve - 3916ms download)

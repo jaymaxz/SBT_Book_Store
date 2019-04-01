@@ -1,74 +1,27 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/PurchaseMenu.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/ListMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/BookDetailsMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/MainMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/AddBookMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/DeleteMenu.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/AddBookMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/PurchaseMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/MainMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/BookDetailsMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/DeleteMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/ListMenu.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/ListMenu.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/AddBookMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/Main$.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/MainMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/Book.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/BookDetailsMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/Main.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/DeleteMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/ListMenu.class, /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes/Main$delayedInit$body.class)[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(BookDetailsMenu, ListMenu, MainMenu, DeleteMenu, PurchaseMenu, AddBookMenu)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(ListMenu)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/ListMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/PurchaseMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/BookDetailsMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/MainMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/AddBookMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/DeleteMenu.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/ListMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/Book.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/Main.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/BookDetailsMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/MainMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/AddBookMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/DeleteMenu.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(BookDetailsMenu, ListMenu, MainMenu, DeleteMenu, PurchaseMenu, AddBookMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/ListMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/PurchaseMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/BookDetailsMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/MainMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/AddBookMenu.scala, /home/jagath/IdeaProjects/SBT_Book_Store/src/main/scala/DeleteMenu.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 7 sources: invalidated sources (6) exceeded 50.0% of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 7 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
 [0m[[0m[0minfo[0m] [0m[0mCompiling 7 Scala sources to /home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 56073768 for Scala compiler version 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5f99d6ec for Scala compiler version 2.12.8[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/jagath/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes:/home/jagath/.ivy2/cache/org.scalaj/scalaj-http_2.12/jars/scalaj-http_2.12-2.4.1.jar:/home/jagath/.ivy2/cache/com.googlecode.json-simple/json-simple/bundles/json-simple-1.1.1.jar:/home/jagath/.ivy2/cache/junit/junit/jars/junit-4.10.jar:/home/jagath/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar:/home/jagath/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.2.2.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.552317785 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/jagath/IdeaProjects/SBT_Book_Store/target/scala-2.12/classes:/home/jagath/.ivy2/cache/org.scalaj/scalaj-http_2.12/jars/scalaj-http_2.12-2.4.1.jar:/home/jagath/.ivy2/cache/com.googlecode.json-simple/json-simple/bundles/json-simple-1.1.1.jar:/home/jagath/.ivy2/cache/junit/junit/jars/junit-4.10.jar:/home/jagath/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar:/home/jagath/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.2.2.jar:/home/jagath/.ivy2/cache/com.rabbitmq/amqp-client/jars/amqp-client-5.0.0.jar:/home/jagath/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.805385479 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from DeleteMenu...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(DeleteMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(DeleteMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of MainMenu: Set(UsedName(show,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(DeleteMenu,ModifiedNames(changes = UsedName(show,[Default]))) invalidates 2 classes due to The DeleteMenu has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(show,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(DeleteMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(MainMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from AddBookMenu...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(AddBookMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(AddBookMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of MainMenu: Set(UsedName(show,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(AddBookMenu,ModifiedNames(changes = UsedName(show,[Default]))) invalidates 2 classes due to The AddBookMenu has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(show,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(AddBookMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(MainMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from BookDetailsMenu...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(BookDetailsMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(BookDetailsMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of MainMenu: Set(UsedName(show,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(BookDetailsMenu,ModifiedNames(changes = UsedName(show,[Default]))) invalidates 2 classes due to The BookDetailsMenu has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(show,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(BookDetailsMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(MainMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from PurchaseMenu...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(PurchaseMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(PurchaseMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(PurchaseMenu,ModifiedNames(changes = UsedName(synchronized,[Default]), UsedName($asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName(ne,[Default]), UsedName(notifyAll,[Default]), UsedName(PurchaseMenu;init;,[Default]), UsedName(==,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName($isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(equals,[Default]), UsedName(PurchaseMenu,[Default]), UsedName(wait,[Default]), UsedName(show,[Default]))) invalidates 1 classes due to The PurchaseMenu has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(synchronized,[Default]), UsedName($asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName(ne,[Default]), UsedName(notifyAll,[Default]), UsedName(PurchaseMenu;init;,[Default]), UsedName(==,[Default]), UsedName(notify,[Default]), UsedName(getClass,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName($isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(equals,[Default]), UsedName(PurchaseMenu,[Default]), UsedName(wait,[Default]), UsedName(show,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(PurchaseMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set(MainMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(MainMenu)[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding Main by MainMenu[0m
-[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
