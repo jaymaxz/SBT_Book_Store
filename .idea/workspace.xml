@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98bf178e-063e-4bf2-94ad-7d9d70509a5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SBT_Book_Store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SBT_Book_Store.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/AddBookMenu.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/AddBookMenu.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/BookDetailsMenu.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/BookDetailsMenu.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/DeleteMenu.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/DeleteMenu.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ListMenu.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ListMenu.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/BookDetailsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/BookDetailsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ListMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ListMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/sbt_book_store$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/sbt_book_store$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/sbt_book_store$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/sbt_book_store$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-sbt_book_store$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/BookDetailsMenu.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
+            <state relative-caret-position="60">
               <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="5" selection-end-column="63" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
@@ -84,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/DeleteMenu.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="60">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -303,9 +282,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3062967" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3062967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -314,7 +292,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,16 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ListMenu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/AddBookMenu.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -420,7 +388,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/BookDetailsMenu.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
+        <state relative-caret-position="60">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="5" selection-end-column="63" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
@@ -428,10 +396,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ListMenu.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/DeleteMenu.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="60">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>

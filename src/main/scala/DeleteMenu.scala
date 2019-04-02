@@ -2,8 +2,8 @@ import com.google.gson.Gson
 import com.rabbitmq.client.{ConnectionFactory, DeliverCallback}
 
 class DeleteMenu {
-  private val DELETE_REQ_QUEUE_NAME = "Add Request Queue"
-  private val DELETE_RES_QUEUE_NAME = "Add Response Queue"
+  private val DELETE_REQ_QUEUE_NAME = "Delete Request Queue"
+  private val DELETE_RES_QUEUE_NAME = "Delete Response Queue"
   def show() = {
     println()
     println("Delete a Book")
@@ -11,7 +11,7 @@ class DeleteMenu {
     println("Press Enter Book ID number and press enter")
     val bookID: Int = scala.io.StdIn.readInt()
     val gson: Gson = new Gson()
-    vaL index = gson.toJson(bookID)
+    val index = gson.toJson(bookID)
     val factory = new ConnectionFactory()
     factory.setHost("localhost")
     val connection = factory.newConnection()
