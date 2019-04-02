@@ -16,10 +16,6 @@ class ListMenu {
     factory.setHost("localhost")
     val connection = factory.newConnection()
     val channel = connection.createChannel()
-    channel.queueDeclare(LIST_REQ_QUEUE_NAME, false, false, false, null)
-    val message = "Book List Request"
-    channel.basicPublish("", LIST_REQ_QUEUE_NAME, null, message.getBytes("UTF-8"))
-    //println(" [x] Sent '" + message + "'")
 
     channel.queueDeclare(LIST_RES_QUEUE_NAME, false, false, false, null)
     //println(" [*] Waiting for messages. To exit press CTRL+C")
@@ -27,19 +23,23 @@ class ListMenu {
     val deliverCallback: DeliverCallback = (_, delivery) => {
       response = new String(delivery.getBody, "UTF-8")
       //println(" [x] Received '" + response + "'")
+      //val result = Http("http://localhost:8000/getAllBooks").asString
+      val jsonPsr: JsonParser =new JsonParser()
+      //val jsonAry: JsonArray = jsonPsr.parse(result.body).asInstanceOf[JsonArray]
+      val jsonAry: JsonArray = jsonPsr.parse(response).asInstanceOf[JsonArray]
+      val bookList: util.ArrayList[Book] = new util.ArrayList[Book]()
+      val gson: Gson = new Gson()
+      jsonAry.forEach(jsnObj => bookList.add(gson.fromJson(jsnObj, classOf[Book])))
+      bookList.forEach((book: Book)=>println(book.bookID+"."+book.name))
+      println()
+      println("Press Enter to go back")
     }
     channel.basicConsume(LIST_RES_QUEUE_NAME, true, deliverCallback, _ => { })
 
-    //val result = Http("http://localhost:8000/getAllBooks").asString
-    val jsonPsr: JsonParser =new JsonParser()
-    //val jsonAry: JsonArray = jsonPsr.parse(result.body).asInstanceOf[JsonArray]
-    val jsonAry: JsonArray = jsonPsr.parse(response).asInstanceOf[JsonArray]
-    val bookList: util.ArrayList[Book] = new util.ArrayList[Book]()
-    val gson: Gson = new Gson()
-    jsonAry.forEach(jsnObj => bookList.add(gson.fromJson(jsnObj, classOf[Book])))
-    bookList.forEach((book: Book)=>println(book.bookID+"."+book.name))
-    println()
-    println("Press Enter to go back")
+    channel.queueDeclare(LIST_REQ_QUEUE_NAME, false, false, false, null)
+    val message = "Book List Request"
+    channel.basicPublish("", LIST_REQ_QUEUE_NAME, null, message.getBytes("UTF-8"))
+    //println(" [x] Sent '" + message + "'")
     scala.io.StdIn.readLine()
   }
 
