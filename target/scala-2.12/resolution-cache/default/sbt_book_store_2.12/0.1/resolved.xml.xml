@@ -4,7 +4,7 @@
 		module="sbt_book_store_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190329105838"
+		publication="20190405105442"
 	>
 		<description>
 		SBT_Book_Store
@@ -36,5 +36,7 @@
 		<dependency org="com.googlecode.json-simple" name="json-simple" rev="1.1.1" conf="compile->default(compile)"/>
 		<dependency org="com.google.code.gson" name="gson" rev="2.2.2" conf="compile->default(compile)"/>
 		<dependency org="com.rabbitmq" name="amqp-client" rev="5.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.5" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
